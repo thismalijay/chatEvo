@@ -86,6 +86,6 @@ Ruf & Detyniecki, 2025).
 
 ## Texture signature
 
-`src/components/brand/WaterTexture.tsx` génère la texture « eau et végétation vue du ciel » en SVG
-(feTurbulence + feDisplacementMap). Pour utiliser une image à la place, déposer `public/assets/water-texture.jpg`
-et remplacer le contenu du composant par une balise `<img>` en `object-fit: cover`.
+`src/components/brand/WaterTexture.tsx` affiche la photo `public/assets/water-texture.jpg` (reflets de lumière dans
+l'eau) en `object-fit: cover`, avec 3 cadrages différents et une dérive lente. Pour changer de texture, remplacer
+simplement ce fichier.
